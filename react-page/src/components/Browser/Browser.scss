@@ -1,0 +1,25 @@
+.browser {
+  width: 30%;
+  min-width: 300px;
+  height: 65%;
+  min-height: 300px;
+  border: 2px solid #341337;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.page-logo {
+  width: 100px;
+  height: 100px;
+
+  // one of extras
+  transition: all .3s;
+
+  &:hover {
+    filter: hue-rotate(270deg);
+  }
+}

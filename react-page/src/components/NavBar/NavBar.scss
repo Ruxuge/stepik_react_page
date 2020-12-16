@@ -1,0 +1,41 @@
+.navigation {
+  background: #ad51b7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    margin: 0;
+    color: #341337;
+  }
+}
+
+.menu-bar-w {
+  width: 80%;
+}
+
+.navigation-bar {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.txdn {
+  list-style-type: none;
+}
+
+.nav-element {
+  text-decoration: none;
+  color: #341337;
+
+  // one of extras
+  transition: all .2s;
+
+  &:hover {
+    background: #341337;
+    color: #ad51b7;
+  }
+}
